@@ -31,4 +31,14 @@ img {
 	object-fit: cover;
 }
 
+h2 {
+	text-align: center;
+	background-color: cadetblue;
+	color:black;
+}
 
+h3 {
+	text-align: center;
+	background-color: white;
+
+}
