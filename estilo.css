@@ -52,4 +52,6 @@ footer {
 footer p h4 {
 	text-align: center;
 	padding: 50px;
+	display:flex;
+	margin: 60px;
 }
