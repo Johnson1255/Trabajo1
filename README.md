@@ -1,2 +1,2 @@
 # Trabajo 1
-Integrantes:Jhonson, Sebastian Forrero y Esteban quiceno
+Integrantes:Johnson Chen, Sebastián Forrero y Esteban Quiceno
