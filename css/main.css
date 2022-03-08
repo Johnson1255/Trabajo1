@@ -104,3 +104,7 @@ header {
 	height: 256px;
 	width: 256px;
 }
+.Pokemon {
+        text-decoration: none;
+	color: black;
+}
