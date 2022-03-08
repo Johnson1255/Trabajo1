@@ -1,4 +1,4 @@
-// https://pokeapi.co/api/v2/pokemon/
+// https://pokeapi.co/api/v2/pokemon/ https://pokeapi.co/api/v2/pokemon/{id or name}/
 
 let contenedor;
 const total_pokemons = 1126;
@@ -25,7 +25,7 @@ function pintarVitrina(evento){
 }
 
 function traerDatos(id){
-    fetch ('https://pokeapi.co/api/v2/pokemon/${id}')
+    fetch ('https://pokeapi.co/api/v2/pokemon/{id or name}/')
     .then(response => response.json())
     .then(data => console.log(data));
     then(function(data){
