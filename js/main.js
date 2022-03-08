@@ -40,12 +40,12 @@ function traerDatos(id){
 
 function imprimirTarjeta(nombre,url)
 {
-    let template = <div class="tarjeta">
+    let template = `<div class="tarjeta">
         <img src="${url}" alt=""></img>
         <br>
         <label for="">
         </label></br>
         <a href="">Ver Más...</a>
-    </div>;
+    </div>`;
     contenedor.innerHTML += template;
 }
