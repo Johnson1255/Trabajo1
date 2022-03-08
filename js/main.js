@@ -25,28 +25,27 @@ function pintarVitrina(evento){
 }
 
 function traerDatos(id){
-    fetch (`https://pokeapi.co/api/v2/pokemon/${id}`)
+    fetch ('https://pokeapi.co/api/v2/pokemon/${id}')
     .then(response => response.json())
-    .then(function(data){
+    .then(data => console.log(data));
+    then(function(data){
         let nombre = data.name;
         let url = data.sprites.ther.dream.world.front_default;
         if(nombre && url)
         {
             imprimirTarjeta(nombre,url);
         }
-    });
+    })
 }
 
 function imprimirTarjeta(nombre,url)
 {
-    let template = `<div class="tarjeta">
-    <img src="${url}" alt = "" >
-    <br>
-    <label for="">
-    ${nombre}
-    </label> <br>
-    <a href="">Ver Más...</a>
-    </div>`;
+    let template = <div class="tarjeta">
+        <img src="${url}" alt=""></img>
+        <br>
+        <label for="">
+        </label></br>
+        <a href="">Ver Más...</a>
+    </div>;
     contenedor.innerHTML += template;
 }
-
