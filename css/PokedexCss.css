@@ -41,12 +41,6 @@ body {
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
   }
   
-  .img-container {
-    background-image: url("./blob.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
   .pokemon-block p {
     margin: 5px;
   }
