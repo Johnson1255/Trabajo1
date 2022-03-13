@@ -210,3 +210,75 @@ hr {
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
+
+
+.slider1{
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  padding: 30px;
+  
+    slider1, slider2, imagen1, imagen2, imagen3, imagen4 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider1, ul.slider2{
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
+ul.slider1 imagen1 imagen2, ul.slider2 imagen3 imagen4 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:yellow;
+}
+
+ul.slider1 li img, ul.slider2 li img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+ul.slider1 li:first-child {
+    opacity: 1; 
+    }
+ul.slider2 li:first-child {
+    opacity: 1; 
+    }
+
+ul.slider1 li:target {
+    opacity: 1; 
+    }
+ul.slider2 li:target {
+    opacity: 1; 
+    }
+
+.menu1, .menu2{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu1 li, .menu2 li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu1 li a, .menu2 li a{
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  background-color: red;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
